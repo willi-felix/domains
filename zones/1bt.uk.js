@@ -17,4 +17,5 @@ D('1bt.uk', NewRegistrar('none'), DnsProvider(NewDnsProvider('cloudflare')), Def
   // subdomains, given for free previously
   CNAME("domjs", "sx-9.github.io.", CF_PROXY_ON),
   CNAME("zeusgang", "zeusgangproject.github.io.", CF_PROXY_ON),
+  AAAA("fannyhost", "2a0e:97c0:3ea:3bb::28", CF_PROXY_ON),
 END)
